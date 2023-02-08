@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <p>{{ $t("helpxxx") }}</p>
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
   </div>
@@ -17,7 +18,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 export default class App extends Vue {}
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
